@@ -4,7 +4,7 @@
 
 | 位置 | 内容 |
 | --- | --- |
-| 根目录 13 张 JPG | 未修改的原始猫咪照片 |
+| [`art/reference/photos/`](../art/reference/photos/) | 13 张未修改的原始猫咪照片 |
 | `art/reference/photos-contact.jpg` | 原照联系表 |
 | `art/mimi/references/` | 统一角色原型、身份参考、布局导引 |
 | `art/mimi/prompts/` | 原版动作与修复提示词 |

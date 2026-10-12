@@ -70,6 +70,6 @@ npm run dist     # 生成 Windows 便携版
 
 ## 素材、来源与许可
 
-仓库保留了全部 13 张猫咪原照、参考拼图、生成源图、提示词、修订版本、逐帧素材、图集、GIF / MP4 预览和检查记录。原照与拼图经项目发起人明确同意公开。目录导航见 [素材清单](docs/materials.md)，复现处理流程见 [创作工具说明](docs/recreating-artwork.md)。运行桌宠只需要 `assets/pet/`，不需要安装图像生成工具。
+仓库保留了全部 13 张[猫咪原照](art/reference/photos/)、[参考拼图](art/reference/photos-contact.jpg)、生成源图、提示词、修订版本、逐帧素材、图集、GIF / MP4 预览和检查记录。原照与拼图经项目发起人明确同意公开。目录导航见 [素材清单](docs/materials.md)，复现处理流程见 [创作工具说明](docs/recreating-artwork.md)。运行桌宠只需要 `assets/pet/`，不需要安装图像生成工具。
 
 角色图及动画由内置 imagegen 生成和整理，没有使用鲸鱼娘项目的角色图或动画素材。代码采用 [MIT](LICENSE)；照片与美术资产的范围说明见 [ASSETS-LICENSE.md](ASSETS-LICENSE.md)。

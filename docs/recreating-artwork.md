@@ -32,7 +32,7 @@ python art/mimi/skill_runtime.py
 | --- | --- |
 | `art/mimi/prompts/`、`art/mimi/imagegen-jobs.json` | 原版生成提示词与任务记录 |
 | `art/mimi/smooth/generation-prompts.json` | 高帧数动作生成提示词 |
-| `art/mimi/references/`、`art/reference/`、仓库根目录 JPG | 猫咪身份、照片和版式参考 |
+| `art/mimi/references/`、`art/reference/`（原照在 `photos/` 子目录） | 猫咪身份、照片和版式参考 |
 | `python art/mimi/register_rows.py` | 对原版已提取帧使用整段统一的身体尺度和地面配准 |
 | `python art/mimi/smooth/build_smooth.py` | 使用技能提取 `smooth/decoded/` 源图，再配准、去边色并生成高帧数图集 |
 | `python art/mimi/smooth/build_smooth.py idle` | 仅重建指定动作，其他动作继续使用当前仓库中的图集 |
