@@ -1,0 +1,208 @@
+{
+  "ok": true,
+  "rows": [
+    {
+      "state": "idle",
+      "scale": 0.6475993376645183,
+      "source_root_x": 84.25,
+      "source_ground_y": 194,
+      "target_root_x": 96,
+      "target_ground_y": 184,
+      "transform_policy": "one uniform scale and translation per whole row; no per-frame resizing",
+      "landmarks": {
+        "iris_centers": [
+          [
+            73.0,
+            47.5
+          ],
+          [
+            95.5,
+            53.0
+          ]
+        ],
+        "iris_distance_before": 23.16246964380094,
+        "iris_distance_after": 15.0
+      },
+      "frames": 6,
+      "method": "components"
+    },
+    {
+      "state": "running-right",
+      "scale": 1.0,
+      "source_root_x": 96,
+      "source_ground_y": 157,
+      "target_root_x": 96,
+      "target_ground_y": 184,
+      "transform_policy": "one uniform scale and translation per whole row; no per-frame resizing",
+      "landmarks": {
+        "reference": "Profile skull ~34 px ear-to-nose; preserved approved gait scale."
+      },
+      "frames": 8,
+      "method": "components"
+    },
+    {
+      "state": "running-left",
+      "scale": 1.0,
+      "source_root_x": 96,
+      "source_ground_y": 157,
+      "target_root_x": 96,
+      "target_ground_y": 184,
+      "transform_policy": "one uniform scale and translation per whole row; no per-frame resizing",
+      "landmarks": {
+        "reference": "Profile skull ~34 px ear-to-nose; preserved approved gait scale."
+      },
+      "frames": 8,
+      "method": "components"
+    },
+    {
+      "state": "waving",
+      "scale": 0.6621048665879703,
+      "source_root_x": 77.0,
+      "source_ground_y": 192,
+      "target_root_x": 96,
+      "target_ground_y": 184,
+      "transform_policy": "one uniform scale and translation per whole row; no per-frame resizing",
+      "landmarks": {
+        "iris_centers": [
+          [
+            66.5,
+            45.5
+          ],
+          [
+            87.5,
+            54.0
+          ]
+        ],
+        "iris_distance_before": 22.655021518418383,
+        "iris_distance_after": 15.0
+      },
+      "frames": 4,
+      "method": "components"
+    },
+    {
+      "state": "jumping",
+      "scale": 0.7571316976876031,
+      "source_root_x": 102.25,
+      "source_ground_y": 200,
+      "target_root_x": 96,
+      "target_ground_y": 184,
+      "transform_policy": "one uniform scale and translation per whole row; no per-frame resizing",
+      "landmarks": {
+        "iris_centers": [
+          [
+            92.5,
+            88.0
+          ],
+          [
+            112.0,
+            91.5
+          ]
+        ],
+        "iris_distance_before": 19.81161275615895,
+        "iris_distance_after": 15.0
+      },
+      "frames": 5,
+      "method": "components"
+    },
+    {
+      "state": "failed",
+      "scale": 0.6404761218940949,
+      "source_root_x": 75.25,
+      "source_ground_y": 194,
+      "target_root_x": 96,
+      "target_ground_y": 184,
+      "transform_policy": "one uniform scale and translation per whole row; no per-frame resizing",
+      "landmarks": {
+        "iris_centers": [
+          [
+            64.0,
+            48.0
+          ],
+          [
+            86.5,
+            54.5
+          ]
+        ],
+        "iris_distance_before": 23.42007685726074,
+        "iris_distance_after": 15.0
+      },
+      "frames": 8,
+      "method": "components"
+    },
+    {
+      "state": "waiting",
+      "scale": 0.6063390625908325,
+      "source_root_x": 73.5,
+      "source_ground_y": 193,
+      "target_root_x": 96,
+      "target_ground_y": 184,
+      "transform_policy": "one uniform scale and translation per whole row; no per-frame resizing",
+      "landmarks": {
+        "iris_centers": [
+          [
+            61.5,
+            48.0
+          ],
+          [
+            85.5,
+            54.0
+          ]
+        ],
+        "iris_distance_before": 24.73863375370596,
+        "iris_distance_after": 15.0
+      },
+      "frames": 6,
+      "method": "components"
+    },
+    {
+      "state": "running",
+      "scale": 0.6216365055567361,
+      "source_root_x": 79.5,
+      "source_ground_y": 194,
+      "target_root_x": 96,
+      "target_ground_y": 184,
+      "transform_policy": "one uniform scale and translation per whole row; no per-frame resizing",
+      "landmarks": {
+        "iris_centers": [
+          [
+            67.5,
+            50.5
+          ],
+          [
+            91.5,
+            53.0
+          ]
+        ],
+        "iris_distance_before": 24.12985702402731,
+        "iris_distance_after": 15.0
+      },
+      "frames": 6,
+      "method": "components"
+    },
+    {
+      "state": "review",
+      "scale": 0.6483550846105152,
+      "source_root_x": 79.5,
+      "source_ground_y": 199,
+      "target_root_x": 96,
+      "target_ground_y": 184,
+      "transform_policy": "one uniform scale and translation per whole row; no per-frame resizing",
+      "landmarks": {
+        "iris_centers": [
+          [
+            68.0,
+            49.0
+          ],
+          [
+            91.0,
+            51.5
+          ]
+        ],
+        "iris_distance_before": 23.13547060251855,
+        "iris_distance_after": 15.0
+      },
+      "frames": 6,
+      "method": "components"
+    }
+  ]
+}

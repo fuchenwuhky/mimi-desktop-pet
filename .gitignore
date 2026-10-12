@@ -1,0 +1,14 @@
+node_modules/
+dist/
+exports/
+adapters/generated/
+**/__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.mimi-pet/
+*.log
+!art/mimi/qa/*-last.log
+.DS_Store
+Thumbs.db

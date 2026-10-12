@@ -1,0 +1,42 @@
+{
+  "bridgeBounds": [
+    56,
+    116,
+    155,
+    187
+  ],
+  "newLoafBounds": [
+    52,
+    116,
+    158,
+    189
+  ],
+  "newLoafEyeMeasure": {
+    "points": [
+      [
+        68.0,
+        88.5
+      ],
+      [
+        94.0,
+        91.5
+      ]
+    ],
+    "distance": 26.1725046566048
+  },
+  "newLoafScale": 0.5731205399256526,
+  "bridgeEyes": null,
+  "newLoafEyes": {
+    "points": [
+      [
+        89.0,
+        144.0
+      ],
+      [
+        104.0,
+        145.0
+      ]
+    ],
+    "distance": 15.033296378372908
+  }
+}

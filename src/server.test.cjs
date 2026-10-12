@@ -1,0 +1,31 @@
+'use strict';
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const http = require('node:http');
+const { createEventServer, MAX_BYTES } = require('./server.cjs');
+const { StateStore } = require('./state.cjs');
+const token = 'a'.repeat(64);
+
+test('event endpoint binds loopback and enforces token, origin, media type and schema', async t => {
+  const store = new StateStore();
+  const server = await createEventServer({ token, store, port: 0 });
+  t.after(() => new Promise(resolve => { server.closeAllConnections(); server.close(resolve); }));
+  assert.equal(server.address().address, '127.0.0.1');
+  const endpoint = `http://127.0.0.1:${server.address().port}/events`;
+  const payload = JSON.stringify({ source: 'test', event: 'waiting' });
+  const headers = { 'Content-Type': 'application/json', 'X-Mimi-Token': token };
+  const request = overrides => fetch(endpoint, { method: 'POST', headers, body: payload, ...overrides });
+  assert.equal((await request({ headers: { 'Content-Type': 'application/json' } })).status, 401);
+  assert.equal((await request({ headers: { ...headers, Origin: 'https://example.com' } })).status, 403);
+  const forgedHostStatus = await new Promise((resolve, reject) => { const req = http.request(endpoint, { method: 'POST', headers: { ...headers, Host: 'evil.example' } }, response => { response.resume(); resolve(response.statusCode); }); req.on('error', reject); req.end(payload); });
+  assert.equal(forgedHostStatus, 403);
+  assert.equal((await request({ headers: { ...headers, 'Content-Type': 'text/plain' } })).status, 415);
+  assert.equal((await request({ body: 'x'.repeat(MAX_BYTES + 1) })).status, 413);
+  assert.equal((await request({ body: '{' })).status, 400);
+  assert.equal((await request({ body: JSON.stringify({ source: 'test', event: 'delete' }) })).status, 400);
+  assert.equal(store.current().event, 'idle');
+  const valid = await request({});
+  assert.equal(valid.status, 202);
+  assert.equal(valid.headers.get('access-control-allow-origin'), null);
+  assert.equal(store.current().event, 'waiting');
+});

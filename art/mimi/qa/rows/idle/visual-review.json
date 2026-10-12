@@ -1,0 +1,19 @@
+{
+  "state": "idle",
+  "selectedSource": "decoded/idle.png",
+  "generation": "built-in image_gen",
+  "visualVerdict": "pass",
+  "sourceSize": [
+    2172,
+    724
+  ],
+  "sourceForegroundBounds": [
+    317,
+    169,
+    1892,
+    538
+  ],
+  "sourceEdgesClear": true,
+  "evidence": "Six complete seated poses with closed-eye blink in frame 3 and subtle breathing. Stable skull and body proportions; feet planted. Regenerated with broad side margins after original edge contact. No clipping, detached effects or guide marks.",
+  "finalAssemblyNote": "Parent will normalize anatomical scale and ground baseline across states; final chroma despill pending."
+}

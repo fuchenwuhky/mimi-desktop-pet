@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "frames_root": "D:\\cat\\art\\mimi\\qa\\rows\\running-left\\frames",
+  "states": [
+    "running-left"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\running-left\\frames\\running-left\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7788,
+          "bbox": [
+            12,
+            60,
+            180,
+            153
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 328
+        },
+        {
+          "index": 1,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\running-left\\frames\\running-left\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9253,
+          "bbox": [
+            8,
+            58,
+            184,
+            150
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 371
+        },
+        {
+          "index": 2,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\running-left\\frames\\running-left\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9127,
+          "bbox": [
+            10,
+            55,
+            182,
+            157
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 381
+        },
+        {
+          "index": 3,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\running-left\\frames\\running-left\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8937,
+          "bbox": [
+            5,
+            50,
+            187,
+            126
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 346
+        },
+        {
+          "index": 4,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\running-left\\frames\\running-left\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7983,
+          "bbox": [
+            10,
+            52,
+            181,
+            148
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 315
+        },
+        {
+          "index": 5,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\running-left\\frames\\running-left\\05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8705,
+          "bbox": [
+            14,
+            55,
+            178,
+            157
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 348
+        },
+        {
+          "index": 6,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\running-left\\frames\\running-left\\06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 7744,
+          "bbox": [
+            12,
+            59,
+            180,
+            153
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 314
+        },
+        {
+          "index": 7,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\running-left\\frames\\running-left\\07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 8954,
+          "bbox": [
+            9,
+            54,
+            183,
+            156
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 383
+        }
+      ]
+    }
+  ]
+}

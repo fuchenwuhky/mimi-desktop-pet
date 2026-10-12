@@ -1,0 +1,125 @@
+{
+  "name": "小咪",
+  "id": "mimi",
+  "version": 2,
+  "spriteVersionNumber": 2,
+  "sheet": "spritesheet.png",
+  "cell": {
+    "width": 192,
+    "height": 208
+  },
+  "columns": 8,
+  "rows": 11,
+  "groundY": 184,
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": 12,
+      "fps": 6.4,
+      "loop": true,
+      "sheet": "smooth-idle.png"
+    },
+    "runRight": {
+      "row": 0,
+      "frames": 16,
+      "fps": 32,
+      "loop": true,
+      "sheet": "smooth-running-right.png"
+    },
+    "runLeft": {
+      "row": 0,
+      "frames": 16,
+      "fps": 32,
+      "loop": true,
+      "sheet": "smooth-running-left.png"
+    },
+    "waving": {
+      "row": 0,
+      "frames": 8,
+      "fps": 10,
+      "loop": false,
+      "sheet": "smooth-waving.png"
+    },
+    "jumping": {
+      "row": 0,
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "sheet": "smooth-jumping.png"
+    },
+    "failed": {
+      "row": 5,
+      "frames": 8,
+      "fps": 5,
+      "loop": false
+    },
+    "waiting": {
+      "row": 6,
+      "frames": 6,
+      "fps": 3.2,
+      "loop": true
+    },
+    "running": {
+      "row": 0,
+      "frames": 12,
+      "fps": 9,
+      "loop": true,
+      "sheet": "smooth-running.png"
+    },
+    "review": {
+      "row": 8,
+      "frames": 6,
+      "fps": 4,
+      "loop": true
+    },
+    "settle": {
+      "sheet": "smooth-transitions.png",
+      "row": 0,
+      "frames": 12,
+      "fps": 18,
+      "loop": false
+    },
+    "rise": {
+      "sheet": "smooth-transitions.png",
+      "row": 0,
+      "frames": 12,
+      "fps": 18,
+      "loop": false,
+      "reverse": true
+    },
+    "standToRun": {
+      "sheet": "smooth-transitions.png",
+      "row": 0,
+      "frames": 5,
+      "fps": 18,
+      "loop": false
+    },
+    "runToStand": {
+      "sheet": "smooth-transitions.png",
+      "row": 0,
+      "frames": 5,
+      "fps": 18,
+      "loop": false,
+      "reverse": true
+    },
+    "loaf": {
+      "sheet": "smooth-loaf.png",
+      "row": 0,
+      "frames": 8,
+      "fps": 3,
+      "loop": true
+    }
+  },
+  "look": {
+    "startRow": 9,
+    "frames": 16
+  },
+  "artwork": {
+    "style": "painterly",
+    "source": "built-in imagegen, grounded in 13 user cat photos",
+    "registration": "row-wide anatomical scale calibration; fixed stage and ground; never per-frame fit",
+    "desktopFrameCount": 130,
+    "compatibilityFrameCount": 83,
+    "extraFrames": "Genuine additional generated poses in independent sheets; fixed-layout v2 atlas retained separately."
+  }
+}

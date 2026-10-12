@@ -1,0 +1,116 @@
+{
+  "name": "小咪",
+  "id": "mimi",
+  "version": 1,
+  "spriteVersionNumber": 2,
+  "sheet": "spritesheet.png",
+  "cell": {
+    "width": 192,
+    "height": 208
+  },
+  "columns": 8,
+  "rows": 11,
+  "groundY": 184,
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": 6,
+      "fps": 3.2,
+      "loop": true
+    },
+    "runRight": {
+      "row": 1,
+      "frames": 8,
+      "fps": 16,
+      "loop": true
+    },
+    "runLeft": {
+      "row": 2,
+      "frames": 8,
+      "fps": 16,
+      "loop": true
+    },
+    "waving": {
+      "row": 3,
+      "frames": 4,
+      "fps": 5,
+      "loop": false
+    },
+    "jumping": {
+      "row": 4,
+      "frames": 5,
+      "fps": 6,
+      "loop": false
+    },
+    "failed": {
+      "row": 5,
+      "frames": 8,
+      "fps": 5,
+      "loop": false
+    },
+    "waiting": {
+      "row": 6,
+      "frames": 6,
+      "fps": 3.2,
+      "loop": true
+    },
+    "running": {
+      "row": 7,
+      "frames": 6,
+      "fps": 4.5,
+      "loop": true
+    },
+    "review": {
+      "row": 8,
+      "frames": 6,
+      "fps": 4,
+      "loop": true
+    },
+    "settle": {
+      "sheet": "transitions.png",
+      "row": 0,
+      "frames": 6,
+      "fps": 9,
+      "loop": false
+    },
+    "rise": {
+      "sheet": "transitions.png",
+      "row": 0,
+      "frames": 6,
+      "fps": 9,
+      "loop": false,
+      "reverse": true
+    },
+    "standToRun": {
+      "sheet": "transitions.png",
+      "row": 0,
+      "frames": 3,
+      "fps": 9,
+      "loop": false
+    },
+    "runToStand": {
+      "sheet": "transitions.png",
+      "row": 0,
+      "frames": 3,
+      "fps": 9,
+      "loop": false,
+      "reverse": true
+    },
+    "loaf": {
+      "sheet": "loaf.png",
+      "row": 0,
+      "frames": 4,
+      "fps": 1.5,
+      "loop": true
+    }
+  },
+  "look": {
+    "startRow": 9,
+    "frames": 16
+  },
+  "artwork": {
+    "style": "painterly",
+    "source": "built-in imagegen, grounded in 13 user cat photos",
+    "registration": "row-wide anatomical scale calibration; fixed stage and ground; never per-frame fit"
+  }
+}

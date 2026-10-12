@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 鼻尖与瞳孔均朝画面右上，右侧口鼻轮廓突出；B 鼻尖与视线朝画面左上。"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 口鼻向右侧突出，眼睛朝右；B 口鼻向左侧突出，眼睛朝左。"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 头部转向右侧，鼻尖在脸部右缘；B 头部转向左侧，鼻尖在脸部左缘。"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 呈朝右的侧脸，鼻尖指右；B 呈朝左的侧脸，鼻尖指左。"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 低头并向右转，鼻尖和可见眼睛朝右下；B 低头向左转，口鼻和视线朝左下。"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 鼻尖落在脸部左下，眼睛向左下看；B 头部明显转右并低垂，鼻尖朝右下。"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 低头略向左偏，鼻尖与视线偏左下；B 低头转右，鼻尖与眼睛均朝右下。"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A 头顶可见面积较大，鼻尖下垂、眼睛向下；B 下巴抬高，鼻尖上翘、瞳孔朝上。"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A 颈部伸展、鼻尖上抬，瞳孔朝右上；B 头部俯低，鼻尖和视线朝右下。"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A 头顶朝向观察者，鼻尖下垂，视线落向下方；B 下巴略抬，鼻梁朝上斜，眼睛朝右上。"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A 头向下俯，眼睛与鼻尖朝右下；B 头部微仰，鼻尖略抬、瞳孔朝右上。"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A 明显仰头，颈部拉长、鼻尖朝左上；B 头部低垂，鼻尖向下，眼睛落向下方。"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A 低头，鼻尖与眼睛朝左下；B 下巴抬起，鼻尖朝左上，视线也上移。"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A 头略仰，鼻尖和瞳孔朝左上；B 头略俯，口鼻压低，眼睛朝左下。"
+    }
+  ]
+}

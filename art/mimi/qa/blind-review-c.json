@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 鼻尖和双眼朝屏幕右上；B 鼻尖与脸面朝屏幕左上。"
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 右侧口鼻轮廓突出，目光偏右；B 左侧口鼻突出，目光偏左。"
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 鼻梁转向屏幕右侧，右侧轮廓较突出；B 鼻梁转向屏幕左侧。"
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 显出朝右的侧脸和鼻尖；B 显出朝左的侧脸和鼻尖。"
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A 略低头但口鼻与眼睛仍偏右；B 略低头且口鼻向左。"
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 低头，鼻尖明显落在脸部左侧；B 低头，鼻尖突出于脸部右侧。"
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A 朝下且略偏左，鼻尖与眼部焦点偏左；B 低头右转，鼻尖朝右下。"
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A 头顶可见较多、鼻尖压低且眼睛向下；B 仰头，鼻尖上抬、下巴与颈部拉开。"
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A 鼻尖与视线抬高，颈部伸展；B 头部前俯、鼻尖与眼睛朝下。"
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A 头部俯下、鼻尖靠下且目光向地面；B 下巴抬起，眼睛与鼻尖朝右上。"
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A 侧脸前俯、眼睛朝右下；B 头部略上抬，下巴抬离胸口，目光略朝右上。"
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A 鼻尖上翘且颈部伸展，视线向左上；B 头顶显露、口鼻下压且眼睛向下。"
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A 低头向左下，鼻尖压低；B 头部上扬，鼻尖和目光向左上。"
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A 头部略仰，眼睛与口鼻朝左上；B 下巴收回、鼻尖偏低且目光向左下。"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "source": "D:\\cat\\art\\mimi\\smooth\\decoded\\waving.png",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "requested_frames": 8,
+  "large_component_count": 8,
+  "frame_groups": 8,
+  "bbox": [
+    [
+      57,
+      174,
+      317,
+      538
+    ],
+    [
+      316,
+      175,
+      576,
+      541
+    ],
+    [
+      570,
+      174,
+      838,
+      542
+    ],
+    [
+      818,
+      174,
+      1094,
+      539
+    ],
+    [
+      1093,
+      175,
+      1346,
+      539
+    ],
+    [
+      1342,
+      174,
+      1596,
+      539
+    ],
+    [
+      1591,
+      175,
+      1842,
+      540
+    ],
+    [
+      1843,
+      174,
+      2115,
+      542
+    ]
+  ],
+  "method": "bundled connected components; one shared row transform",
+  "visual_review": {
+    "tail_repair": "all eight tails complete with rounded furry contours; final tail no longer has straight cutoff",
+    "continuity": "same head dimensions and grounded hindquarters, forepaw lifts and lowers, first and last seated",
+    "no_detached_effects": true,
+    "count": 8
+  },
+  "no_final_physical_registration_yet": true
+}

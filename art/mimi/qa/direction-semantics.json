@@ -1,0 +1,101 @@
+{
+  "directions": {
+    "000": {
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "evidence": "Chin lifted, nostrils visible under raised nose; both blue eyes point above face center."
+    },
+    "022.5": {
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "warning",
+      "evidence": "Nose rises toward upper right; raised chin and visible screen-right-facing muzzle supply both axes."
+    },
+    "045": {
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "warning",
+      "evidence": "Head yaw and blue eye face right; raised nose and chin preserve upward pitch. Similar to preceding angle but no reversal."
+    },
+    "067.5": {
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Nose tip points to right edge while chin remains subtly raised; pupil is on upper right of eye surface."
+    },
+    "090": {
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "evidence": "Clear right profile with nose and blue eye on screen-right of ear/cheek center; torso remains seated front."
+    },
+    "112.5": {
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Right profile begins to bow, muzzle and pupil point slightly below the prior right cardinal."
+    },
+    "135": {
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Nose points down and right, crown visible, chin sinks into screen-right chest."
+    },
+    "157.5": {
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Head is bowed steeply; nose remains on screen-right of skull center and points toward right forepaw."
+    },
+    "180": {
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "evidence": "Both ears flatten with bowed crown; centered nose and eyes aim down between planted forepaws."
+    },
+    "202.5": {
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Bowed nose shifts left of crown, both gaze and muzzle aim to lower-left paw."
+    },
+    "225": {
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Left muzzle is visible while crown faces viewer; nose and pupil are below head center."
+    },
+    "247.5": {
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Head turns left with slight downward chin pitch; gaze stays below the horizontal left cardinal."
+    },
+    "270": {
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "evidence": "Clear left profile, nose and blue eye on screen-left side of cheek and ear; seated body remains fixed."
+    },
+    "292.5": {
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Left profile begins upward chin lift; blue eye and nose tip point above left edge."
+    },
+    "315": {
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Nose is angled upper-left with lifted chin and visible underside of muzzle."
+    },
+    "337.5": {
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Chin strongly raised, eyes aim nearly upward but muzzle remains slightly left; flows into up cardinal."
+    }
+  },
+  "review": "Labeled native-size and zoom review of exact encoded final atlas; all four cardinals unambiguous; minor near-up adjacent similarity."
+}

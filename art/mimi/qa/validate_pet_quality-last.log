@@ -1,0 +1,64 @@
+{
+  "ok": true,
+  "atlas": "D:\\cat\\art\\mimi\\final\\spritesheet-extended.png",
+  "encoded_bytes": 1559524,
+  "sha256": "452c4fa1cbed2b83c4bd46668b6528d02a20aeeef403462243ec537a0b6a60e8",
+  "jump": {
+    "idle_baseline": 189,
+    "jump_baselines": [
+      183,
+      182,
+      156,
+      176,
+      186
+    ],
+    "airborne_lift_pixels": 30,
+    "landing_delta_pixels": 3
+  },
+  "look_registration": {
+    "neutral_center_x": 103.0,
+    "look_centers_x": [
+      102.0,
+      102.0,
+      101.0,
+      101.0,
+      101.0,
+      101.0,
+      100.0,
+      100.5,
+      101.0,
+      101.0,
+      101.0,
+      101.0,
+      101.0,
+      101.0,
+      101.0,
+      101.0
+    ],
+    "look_widths": [
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      85,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      84
+    ],
+    "maximum_center_drift_pixels": 3.0,
+    "maximum_width_ratio": 1.0238095238095237
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 022.5 accepted with a reviewed warning",
+    "look direction 045 accepted with a reviewed warning"
+  ]
+}

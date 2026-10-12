@@ -1,0 +1,11 @@
+{
+  "state": "running-right",
+  "selectedSource": "decoded/running-right.png",
+  "generation": "built-in image_gen",
+  "visualVerdict": "pass",
+  "frameCount": 8,
+  "evidence": "Eight isolated complete cats, all noses face screen-right and tails trail left. Leg cadence alternates gathered and extended gallop; frame 4 visibly airborne. Skull and torso anatomy remain consistent within the strip. Soft hand-painted fur, blue eyes, white blaze and gray-taupe back/tail retain identity. No shadows, motion lines or detached effects.",
+  "mirrorApproved": true,
+  "mirrorReason": "Eye mask is approximately symmetric; soft neutral lighting and absence of handed props keep identity correct after per-frame horizontal mirroring. Preserve temporal frame order.",
+  "finalAssemblyNote": "Cross-state head-size normalization is required; a running frame has about 36px head width compared with about 60px in the independently fitted idle extraction. Use shared anatomical scale and baseline in final assembly. Final chroma despill pending."
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'">
+  <title>咪咪 · 偷偷陪你</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="pet-stage" aria-label="咪咪桌宠">
+    <div id="speech" class="speech" role="status" aria-live="polite"><span id="source"></span><p id="words"></p></div>
+    <button id="cat" aria-label="轻轻摸咪咪；右键打开菜单" title="拖动换个窝 · 双击咪一声 · 右键更多">
+      <canvas id="sprite" width="192" height="208" aria-hidden="true"></canvas>
+    </button>
+    <div id="missing" hidden><strong>猫猫还在梳毛</strong><p>没有找到猫猫动画，请将素材放进 assets/pet，然后重新打开。</p></div>
+  </main>
+  <aside id="preview-controls" hidden aria-label="动作预览">
+    <header><span>咪咪的秘密练习场</span><small>小声一点，她会听见。</small></header>
+    <div id="action-controls"></div>
+    <footer>所有动作使用同一画格与缩放比例 · 拖动猫猫换个位置</footer>
+  </aside>
+  <script src="animation.cjs"></script>
+  <script src="behavior.cjs"></script>
+  <script src="renderer.js"></script>
+</body>
+</html>

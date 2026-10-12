@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "input": "D:\\cat\\art\\mimi\\final\\loaf-raw.png",
+  "output": "D:\\cat\\assets\\pet\\loaf.png",
+  "chroma_key": "#FF00FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 7,
+  "spill_tolerance": 0.6,
+  "minimum_saturation": 0.03,
+  "changed_pixels": 3733,
+  "decontaminated_pixels": 3486,
+  "spill_suppressed_pixels": 3733,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c0": 941,
+    "r0c1": 941,
+    "r0c3": 928,
+    "r0c2": 923
+  },
+  "alpha_preserved": true
+}

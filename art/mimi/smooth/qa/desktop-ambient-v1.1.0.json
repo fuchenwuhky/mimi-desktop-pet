@@ -1,0 +1,165 @@
+{
+  "version": "1.1.0",
+  "complete": true,
+  "ok": true,
+  "observations": [
+    {
+      "phase": "visible-idle",
+      "elapsedMs": 45119,
+      "visible": true,
+      "autonomousActions": 1,
+      "changes": [
+        {
+          "elapsedMs": 2,
+          "animation": "idle",
+          "ambient": null,
+          "serial": 0,
+          "frame": 4,
+          "missing": false,
+          "rect": {
+            "x": 75,
+            "y": 222,
+            "width": 240,
+            "height": 260
+          }
+        },
+        {
+          "elapsedMs": 35822,
+          "animation": "idle",
+          "ambient": "peek",
+          "serial": 1,
+          "frame": 5,
+          "missing": false,
+          "rect": {
+            "x": 75,
+            "y": 222,
+            "width": 240,
+            "height": 260
+          }
+        },
+        {
+          "elapsedMs": 36684,
+          "animation": "review",
+          "ambient": "peek",
+          "serial": 1,
+          "frame": 0,
+          "missing": false,
+          "rect": {
+            "x": 75,
+            "y": 222,
+            "width": 240,
+            "height": 260
+          }
+        },
+        {
+          "elapsedMs": 40358,
+          "animation": "idle",
+          "ambient": "peek",
+          "serial": 1,
+          "frame": 0,
+          "missing": false,
+          "rect": {
+            "x": 75,
+            "y": 222,
+            "width": 240,
+            "height": 260
+          }
+        }
+      ]
+    },
+    {
+      "phase": "waiting-for-user",
+      "elapsedMs": 42055,
+      "visible": true,
+      "autonomousActions": 0,
+      "changes": [
+        {
+          "elapsedMs": 1,
+          "animation": "idle",
+          "ambient": "peek",
+          "serial": 1,
+          "frame": 7,
+          "missing": false,
+          "rect": {
+            "x": 75,
+            "y": 222,
+            "width": 240,
+            "height": 260
+          }
+        },
+        {
+          "elapsedMs": 860,
+          "animation": "waiting",
+          "ambient": "peek",
+          "serial": 1,
+          "frame": 0,
+          "missing": false,
+          "rect": {
+            "x": 75,
+            "y": 222,
+            "width": 240,
+            "height": 260
+          }
+        }
+      ]
+    },
+    {
+      "phase": "hidden-window",
+      "elapsedMs": 45044,
+      "visible": false,
+      "autonomousActions": 0,
+      "changes": [
+        {
+          "elapsedMs": 2,
+          "animation": "waiting",
+          "ambient": "peek",
+          "serial": 1,
+          "frame": 0,
+          "missing": false,
+          "rect": {
+            "x": 75,
+            "y": 222,
+            "width": 240,
+            "height": 260
+          }
+        },
+        {
+          "elapsedMs": 855,
+          "animation": "idle",
+          "ambient": "peek",
+          "serial": 1,
+          "frame": 1,
+          "missing": false,
+          "rect": {
+            "x": 75,
+            "y": 222,
+            "width": 240,
+            "height": 260
+          }
+        }
+      ]
+    },
+    {
+      "phase": "just-restored",
+      "elapsedMs": 2594,
+      "visible": true,
+      "autonomousActions": 0,
+      "changes": [
+        {
+          "elapsedMs": 2,
+          "animation": "idle",
+          "ambient": "peek",
+          "serial": 1,
+          "frame": 8,
+          "missing": false,
+          "rect": {
+            "x": 75,
+            "y": 222,
+            "width": 240,
+            "height": 260
+          }
+        }
+      ]
+    }
+  ]
+}

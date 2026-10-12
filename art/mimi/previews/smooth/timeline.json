@@ -1,0 +1,66 @@
+[
+  {
+    "state": "idle",
+    "seconds": 0.0
+  },
+  {
+    "state": "running",
+    "seconds": 3.84
+  },
+  {
+    "state": "waiting",
+    "seconds": 6.48
+  },
+  {
+    "state": "review",
+    "seconds": 8.34
+  },
+  {
+    "state": "waving",
+    "seconds": 9.84
+  },
+  {
+    "state": "jumping",
+    "seconds": 10.64
+  },
+  {
+    "state": "idle",
+    "seconds": 11.44
+  },
+  {
+    "state": "standToRun",
+    "seconds": 13.36
+  },
+  {
+    "state": "runRight",
+    "seconds": 13.66
+  },
+  {
+    "state": "runToStand",
+    "seconds": 15.1
+  },
+  {
+    "state": "idle",
+    "seconds": 15.4
+  },
+  {
+    "state": "failed",
+    "seconds": 17.32
+  },
+  {
+    "state": "settle",
+    "seconds": 18.92
+  },
+  {
+    "state": "loaf",
+    "seconds": 19.64
+  },
+  {
+    "state": "rise",
+    "seconds": 24.92
+  },
+  {
+    "state": "idle",
+    "seconds": 25.64
+  }
+]

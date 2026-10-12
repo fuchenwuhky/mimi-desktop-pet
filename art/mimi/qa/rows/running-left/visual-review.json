@@ -1,0 +1,19 @@
+{
+  "state": "running-left",
+  "selectedSource": "decoded/running-left.png",
+  "generation": "approved per-frame horizontal mirror",
+  "visualVerdict": "pass",
+  "sourceSize": [
+    2632,
+    724
+  ],
+  "sourceForegroundBounds": [
+    110,
+    275,
+    2526,
+    430
+  ],
+  "sourceEdgesClear": true,
+  "evidence": "Eight complete leftward gallop poses deterministically mirrored individually from approved running-right source components. Same chronological order maintained, no whole-strip reversal. Symmetric facial mask and soft neutral lighting permit mirror, no handed props. Alternating gathered and extended gait visible.",
+  "finalAssemblyNote": "Parent will normalize anatomical scale and ground baseline across states; final chroma despill pending."
+}

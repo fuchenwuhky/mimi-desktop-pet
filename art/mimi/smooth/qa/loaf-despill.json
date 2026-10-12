@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "input": "D:\\cat\\art\\mimi\\smooth\\sheets\\loaf-raw.png",
+  "output": "D:\\cat\\art\\mimi\\smooth\\sheets\\loaf.png",
+  "chroma_key": "#FF00FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 7,
+  "spill_tolerance": 0.6,
+  "minimum_saturation": 0.03,
+  "changed_pixels": 5931,
+  "decontaminated_pixels": 5444,
+  "spill_suppressed_pixels": 5931,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c7": 756,
+    "r0c4": 746,
+    "r0c3": 745,
+    "r0c2": 740,
+    "r0c6": 740,
+    "r0c5": 738,
+    "r0c1": 735,
+    "r0c0": 731
+  },
+  "alpha_preserved": true
+}

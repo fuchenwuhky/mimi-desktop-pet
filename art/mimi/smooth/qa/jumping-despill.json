@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "input": "D:\\cat\\art\\mimi\\smooth\\sheets\\jumping-raw.png",
+  "output": "D:\\cat\\art\\mimi\\smooth\\sheets\\jumping.png",
+  "chroma_key": "#FF00FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 7,
+  "spill_tolerance": 0.6,
+  "minimum_saturation": 0.03,
+  "changed_pixels": 13366,
+  "decontaminated_pixels": 11931,
+  "spill_suppressed_pixels": 13366,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c6": 1608,
+    "r0c7": 1545,
+    "r0c3": 1502,
+    "r0c0": 1364,
+    "r1c1": 1329,
+    "r0c5": 1319,
+    "r0c4": 1286,
+    "r1c0": 1245,
+    "r0c2": 1110,
+    "r0c1": 1058
+  },
+  "alpha_preserved": true
+}

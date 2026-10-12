@@ -1,0 +1,27 @@
+:root { color-scheme: light; --ink: #384038; --mist: #e7efe8; --cream: #fffdf7; --moss: #687866; --scale: 1; --speech-height: 148px; }
+* { box-sizing: border-box; }
+html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: transparent; font-family: "Microsoft YaHei UI", "PingFang SC", sans-serif; color: var(--ink); user-select: none; }
+#pet-stage { position: absolute; top: 0; left: 0; width: 390px; height: 490px; overflow: hidden; }
+#cat { position: absolute; left: 50%; bottom: 8px; width: 192px; height: 208px; margin: 0; padding: 0; border: 0; outline: 0; background: transparent; cursor: grab; touch-action: none; transform: translateX(-50%) scale(var(--scale)); transform-origin: 50% 100%; -webkit-tap-highlight-color: transparent; }
+#cat:active { cursor: grabbing; }
+#cat:focus-visible { outline: 1px dashed var(--moss); border-radius: 40%; outline-offset: -10px; }
+#sprite { display: block; width: 100%; height: 100%; pointer-events: none; }
+.speech { position: absolute; z-index: 2; bottom: calc(var(--speech-height) * var(--scale) + 12px); left: 50%; width: max-content; max-width: 266px; padding: 11px 16px 12px; background: rgba(255, 253, 247, .96); border: 1px solid #ccd7ca; border-radius: 19px 19px 19px 5px; box-shadow: 0 3px 14px #263b2914; opacity: 0; transform: translate(-50%, 4px); transition: opacity .2s, transform .2s, bottom .3s ease; pointer-events: none; }
+.speech.visible { opacity: 1; transform: translate(-50%, 0); }
+.speech p { font-size: 13px; line-height: 1.6; letter-spacing: .04em; margin: 0; white-space: pre-line; overflow-wrap: anywhere; }
+.speech #source:empty { display: none; }
+.speech #source { display: block; font-size: 10px; line-height: 1.2; color: var(--moss); margin-bottom: 5px; letter-spacing: .06em; }
+#missing { position: absolute; left: 30px; bottom: 28px; width: 320px; padding: 22px; border: 1px solid #ccd7ca; background: var(--cream); border-radius: 20px; line-height: 1.7; font-size: 13px; }
+#missing strong { font-size: 18px; }
+body.preview { background: #d9e2dc; background-image: radial-gradient(#748b7022 1px, transparent 1px); background-size: 18px 18px; }
+body.preview #pet-stage { inset: auto 0 218px; width: 100%; height: 410px; }
+#preview-controls { position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%); width: min(620px, calc(100% - 40px)); text-align: center; }
+#preview-controls header { margin-bottom: 20px; }
+#preview-controls header span { display: block; font-family: "KaiTi", "STKaiti", serif; font-size: 27px; letter-spacing: .12em; }
+#preview-controls small { display: block; font-size: 12px; color: var(--moss); margin-top: 8px; }
+#action-controls { display: flex; flex-wrap: wrap; justify-content: center; gap: 7px; }
+#action-controls button { font: inherit; font-size: 12px; color: var(--ink); border: 1px solid #aebdaf; background: #f7faf5bb; border-radius: 20px; padding: 7px 13px; cursor: pointer; }
+#action-controls button:hover, #action-controls button:focus-visible { background: var(--cream); border-color: var(--moss); }
+#preview-controls footer { margin-top: 15px; font-size: 10px; color: var(--moss); }
+@media (prefers-reduced-motion: reduce) { .speech { transition: none; } }
+html.reduced-motion .speech { transition: none; }

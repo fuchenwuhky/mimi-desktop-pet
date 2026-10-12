@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "input": "D:\\cat\\art\\mimi\\smooth\\sheets\\running-raw.png",
+  "output": "D:\\cat\\art\\mimi\\smooth\\sheets\\running.png",
+  "chroma_key": "#FF00FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 7,
+  "spill_tolerance": 0.6,
+  "minimum_saturation": 0.03,
+  "changed_pixels": 12711,
+  "decontaminated_pixels": 11568,
+  "spill_suppressed_pixels": 12711,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c4": 1079,
+    "r0c7": 1075,
+    "r1c3": 1073,
+    "r1c0": 1068,
+    "r1c1": 1064,
+    "r0c2": 1062,
+    "r0c6": 1060,
+    "r1c2": 1060,
+    "r0c1": 1049,
+    "r0c0": 1047,
+    "r0c5": 1038,
+    "r0c3": 1036
+  },
+  "alpha_preserved": true
+}

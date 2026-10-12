@@ -1,0 +1,86 @@
+{
+  "name": "mimi-desktop-pet",
+  "version": "1.1.0",
+  "private": true,
+  "description": "一只小声咪、偷偷陪你工作的长毛猫",
+  "main": "src/main.cjs",
+  "author": "Mimi Pet",
+  "license": "MIT",
+  "homepage": "https://github.com/fuchenwuhky/mimi-desktop-pet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuchenwuhky/mimi-desktop-pet.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test src/*.test.cjs adapters/*.test.cjs",
+    "preview": "node scripts/preview.cjs",
+    "event": "node scripts/event.cjs",
+    "pack": "electron-builder --dir --win --x64",
+    "dist": "node scripts/build.cjs",
+    "check": "node --check src/main.cjs && node --check src/renderer.js && npm test"
+  },
+  "devDependencies": {
+    "electron": "^41.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "pet.mimi.desktop",
+    "productName": "咪咪桌宠",
+    "artifactName": "Mimi-Pet-${version}-Windows.${ext}",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**",
+      "assets/pet/**",
+      "package.json",
+      "README.md",
+      "LICENSE",
+      "ASSETS-LICENSE.md"
+    ],
+    "extraFiles": [
+      {
+        "from": "adapters",
+        "to": "adapters",
+        "filter": [
+          "**/*",
+          "!*.test.cjs",
+          "!generated/**"
+        ]
+      },
+      {
+        "from": "docs",
+        "to": "docs"
+      },
+      {
+        "from": "scripts/event.cjs",
+        "to": "scripts/event.cjs"
+      },
+      {
+        "from": "src/state.cjs",
+        "to": "src/state.cjs"
+      },
+      {
+        "from": "README.md",
+        "to": "README.md"
+      },
+      {
+        "from": "LICENSE",
+        "to": "LICENSE"
+      },
+      {
+        "from": "ASSETS-LICENSE.md",
+        "to": "ASSETS-LICENSE.md"
+      }
+    ],
+    "asar": true,
+    "win": {
+      "target": "portable",
+      "signAndEditExecutable": false
+    },
+    "portable": {
+      "artifactName": "Mimi-Pet-${version}-Windows.exe"
+    }
+  }
+}

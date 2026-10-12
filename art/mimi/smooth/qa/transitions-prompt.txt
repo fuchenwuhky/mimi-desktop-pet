@@ -1,0 +1,18 @@
+Use case: identity-preserve. Asset type: higher-frame desktop cat sprite strip, grounded in supplied original art.
+Image 1 is the canonical character. Image 2 contains the same canonical and real-cat photo identity references. Image 3 is the APPROVED six-keyframe seated-to-loaf movement; expand that exact movement into TWELVE freshly drawn coherent consecutive poses with actual intermediate limb/body poses.
+Output ONE wide horizontal strip, exactly 12 complete separated cats reading left to right. Pure saturated magenta #FF00FF flat backdrop. Keep the entire strip within the central 80 percent of the image width with wide empty magenta margins left and right. Every cat has margin all around, no overlaps, cropped ears/tails/paws or floor shadows. No text/grid/labels/effects.
+Cat: same shy female long-haired white and gray-taupe bicolor, blue eyes, pink nose, slender under natural long fur. Same delicate realistic painterly fur style and facial markings as references; no chibi proportions. All twelve cats have identical skull size, torso length and limb anatomy, lighting and camera. Fixed physical scale, no zoom. Tail moving continuously, paws share one floor baseline. The body naturally changes posture, it never inflates or shrinks.
+POSES IN ORDER, EXACTLY TWELVE:
+1 canonical seated facing viewer with tiny rightward head tilt, tail resting right.
+2 lean forward slightly, front paws still planted.
+3 lean forward farther, hindquarters beginning to lift.
+4 rise almost onto all four paws, body angles slightly screen right while face stays visible.
+5 fully standing on all four paws in gentle three-quarter screen-right pose, ready to run, head same size.
+6 identical stance with weight beginning to lower, knees just bend.
+7 front elbows bend a little, shoulders descend.
+8 crouch halfway, belly lowering, hindquarters folding.
+9 chest low, front paws slide under body.
+10 forepaws nearly tucked, long fur settles.
+11 nearly loaf, head upright unchanged, tail curves softly alongside.
+12 final compact fluffy loaf like the last original pose, slim cat enclosed in long fur, eyes softly open.
+Continuity is most important: each neighboring pose is a small anatomical step of ONE action. First and last match original key poses. Pose 5 is a usable standing bridge before a rightward run. Produce all twelve poses, no duplicates.

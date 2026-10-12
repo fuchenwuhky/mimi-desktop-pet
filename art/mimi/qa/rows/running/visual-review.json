@@ -1,0 +1,19 @@
+{
+  "state": "running",
+  "selectedSource": "decoded/running.png",
+  "generation": "built-in image_gen",
+  "visualVerdict": "pass",
+  "sourceSize": [
+    2172,
+    724
+  ],
+  "sourceForegroundBounds": [
+    238,
+    167,
+    1939,
+    549
+  ],
+  "sourceEdgesClear": true,
+  "evidence": "Six complete upright seated poses share idle anatomy and head-to-chest ratio. Eyes focus down without a deep head hunch. Viewer-left forepaw lifts in frame 2; viewer-right forepaw lifts in frame 4, making a deliberate alternating kneading/working cycle. Torso and rump anchored, no travel. Broad margins and complete tail.",
+  "finalAssemblyNote": "Parent will normalize anatomical scale and ground baseline across states; final chroma despill pending."
+}

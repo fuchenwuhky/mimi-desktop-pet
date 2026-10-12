@@ -1,0 +1,212 @@
+[
+  {
+    "phase": "run",
+    "animation": "runLeft",
+    "frame": "6",
+    "frames": "16",
+    "sheet": "smooth-running-left.png",
+    "viewport": [
+      390,
+      490
+    ],
+    "rect": {
+      "x": 75,
+      "y": 222,
+      "width": 240,
+      "height": 260
+    },
+    "speech": "我、我先走一步！",
+    "window": {
+      "x": 1225,
+      "y": 529,
+      "width": 391,
+      "height": 491
+    },
+    "content": {
+      "x": 1225,
+      "y": 529,
+      "width": 390,
+      "height": 490
+    }
+  },
+  {
+    "phase": "working",
+    "animation": "running",
+    "frame": "1",
+    "frames": "12",
+    "sheet": "smooth-running.png",
+    "viewport": [
+      390,
+      490
+    ],
+    "rect": {
+      "x": 75,
+      "y": 222,
+      "width": 240,
+      "height": 260
+    },
+    "speech": "我盯着呢。没有偷看。",
+    "window": {
+      "x": 1057,
+      "y": 529,
+      "width": 391,
+      "height": 491
+    },
+    "content": {
+      "x": 1057,
+      "y": 529,
+      "width": 390,
+      "height": 490
+    }
+  },
+  {
+    "phase": "waiting",
+    "animation": "waiting",
+    "frame": "3",
+    "frames": "6",
+    "sheet": "spritesheet.png",
+    "viewport": [
+      390,
+      490
+    ],
+    "rect": {
+      "x": 75,
+      "y": 222,
+      "width": 240,
+      "height": 260
+    },
+    "speech": "咪……这一步，要你点头。",
+    "window": {
+      "x": 1057,
+      "y": 529,
+      "width": 391,
+      "height": 491
+    },
+    "content": {
+      "x": 1057,
+      "y": 529,
+      "width": 390,
+      "height": 490
+    }
+  },
+  {
+    "phase": "error",
+    "animation": "failed",
+    "frame": "4",
+    "frames": "8",
+    "sheet": "spritesheet.png",
+    "viewport": [
+      390,
+      490
+    ],
+    "rect": {
+      "x": 75,
+      "y": 222,
+      "width": 240,
+      "height": 260
+    },
+    "speech": "卡住了……\n我陪你再看一眼。",
+    "window": {
+      "x": 1057,
+      "y": 529,
+      "width": 391,
+      "height": 491
+    },
+    "content": {
+      "x": 1057,
+      "y": 529,
+      "width": 390,
+      "height": 490
+    }
+  },
+  {
+    "phase": "success",
+    "animation": "jumping",
+    "frame": "5",
+    "frames": "10",
+    "sheet": "smooth-jumping.png",
+    "viewport": [
+      390,
+      490
+    ],
+    "rect": {
+      "x": 75,
+      "y": 222,
+      "width": 240,
+      "height": 260
+    },
+    "speech": "好了。我先假装不是我。",
+    "window": {
+      "x": 1057,
+      "y": 529,
+      "width": 391,
+      "height": 491
+    },
+    "content": {
+      "x": 1057,
+      "y": 529,
+      "width": 390,
+      "height": 490
+    }
+  },
+  {
+    "phase": "idle",
+    "animation": "idle",
+    "frame": "8",
+    "frames": "12",
+    "sheet": "smooth-idle.png",
+    "viewport": [
+      390,
+      490
+    ],
+    "rect": {
+      "x": 75,
+      "y": 222,
+      "width": 240,
+      "height": 260
+    },
+    "speech": "这里……可以趴一小会儿吗。",
+    "window": {
+      "x": 1057,
+      "y": 529,
+      "width": 391,
+      "height": 491
+    },
+    "content": {
+      "x": 1057,
+      "y": 529,
+      "width": 390,
+      "height": 490
+    }
+  },
+  {
+    "phase": "loaf",
+    "animation": "loaf",
+    "frame": "1",
+    "frames": "8",
+    "sheet": "smooth-loaf.png",
+    "viewport": [
+      390,
+      490
+    ],
+    "rect": {
+      "x": 75,
+      "y": 222,
+      "width": 240,
+      "height": 260
+    },
+    "speech": "现在是一堆毛。\n猫不在这里。",
+    "window": {
+      "x": 1057,
+      "y": 529,
+      "width": 391,
+      "height": 491
+    },
+    "content": {
+      "x": 1057,
+      "y": 529,
+      "width": 390,
+      "height": 490
+    }
+  }
+]

@@ -1,0 +1,7 @@
+Create one clean full-body reference sprite for ChatGPT pet 小咪.
+
+Pet identity: Female longhaired bicolor cat from reference photos. Slender body under fluffy ivory white long fur; gray-taupe ears and symmetric eye mask, blue eyes, pink nose, inverted white facial blaze, long gray-taupe feather tail. Shy, tiny voice, furtive sideways glances, quick sprint. Fixed skeletal head/body proportions, no per-frame resizing, no clothes, no accessories, no props. Front three-quarter seated canonical pose..
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `painterly`: Painterly mascot with simplified brush texture, readable forms, stable palette, and enough edge clarity for clean extraction. User style notes: Polished hand-painted 2D animation cel. Clean softly shaded fur masses, fine warm-gray silhouette outlines, readable at 192 pixels, natural feline anatomy, not chibi and not obese..
+
+
+Place a single centered pose on a perfectly flat pure magenta #FF00FF chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep #FF00FF and close colors out of the pet, props, highlights, and effects.

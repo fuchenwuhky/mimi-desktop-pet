@@ -1,0 +1,38 @@
+{
+  "generator": "built-in image_gen",
+  "reviewedSourceOnly": true,
+  "registrationAndFinalChromaCleanupPending": true,
+  "transitions": {
+    "file": "D:/cat/art/mimi/smooth/decoded/transitions.png",
+    "frames": 12,
+    "connectedPoseGroups": 12,
+    "groundRangeSourcePixels": [433, 435],
+    "standBridgeLastIndex": 4,
+    "semantics": "seated, lean, rise, fourleg stance, lower, crouch, forepaw tuck, fluffy loaf",
+    "identity": "graytaupe-white bicolor longhaired female cat; blue eyes; slender natural anatomy under fur",
+    "anatomy": "head size broadly stable; torso changes articulation while lowering, not whole-body zoom",
+    "neutralCalibrationNote": "Frame 0 blue irises are dark and strict blue detector finds fewer than two; frame 1 is a suitable near-neutral control. Use one scale for all frames.",
+    "spacing": "12 separate full connected silhouettes, ears/tails/paws intact",
+    "revision": "First attempt had overlapping tail/neighbor components; regenerated with uniform smaller composition. Rejected source preserved."
+  },
+  "jumping": {
+    "file": "D:/cat/art/mimi/smooth/decoded/jumping.png",
+    "frames": 10,
+    "connectedPoseGroups": 10,
+    "semantics": "seated, crouch, preload, liftoff, ascend, apex, descend, forepaw landing, settling, seated",
+    "jumpPeakIndex": 5,
+    "firstAndLastSourceBottom": 503,
+    "apexSourceBottom": 422,
+    "spacing": "10 complete isolated silhouettes, no clipping, source vertical displacement preserved",
+    "identity": "matching canonical fine painterly longhair, white chest, taupe mask, blueeyes",
+    "calibrationNote": "Neutral seated final frame has two detectable blue irises; shared row scale should preserve genuine 81 px apex displacement."
+  },
+  "loaf": {
+    "file": "D:/cat/art/mimi/smooth/decoded/loaf.png",
+    "frames": 8,
+    "connectedPoseGroups": 8,
+    "semantics": "slow blink open to halfclosed to closed and back; very small chestfur breathing and tail settling",
+    "identity": "same head, torso, floor and tail size across eight frames; consistent canonical rightward headtilt",
+    "spacing": "eight complete isolated silhouettes, no clipping or detached effects"
+  }
+}

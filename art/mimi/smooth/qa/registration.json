@@ -1,0 +1,160 @@
+[
+  {
+    "state": "idle",
+    "frames": 12,
+    "scale": 0.6400386879521874,
+    "root_x": 85.0,
+    "ground_y": 193,
+    "target_ground": 184,
+    "landmarks": {
+      "points": [
+        [
+          73.5,
+          48.5
+        ],
+        [
+          96.5,
+          53.0
+        ]
+      ],
+      "distance": 23.43608329051593
+    },
+    "policy": "one fixed uniform transform across entire clip",
+    "sheet": "D:\\cat\\art\\mimi\\smooth\\sheets\\idle.png",
+    "sha256": "bdb8444f0012512dc60941e8fe89a36c1f2cab1209e2aba994ddb672784a6633"
+  },
+  {
+    "state": "running",
+    "frames": 12,
+    "scale": 0.6347163275611355,
+    "root_x": 85.25,
+    "ground_y": 195,
+    "target_ground": 184,
+    "landmarks": {
+      "points": [
+        [
+          73.5,
+          50.5
+        ],
+        [
+          97.0,
+          53.0
+        ]
+      ],
+      "distance": 23.632604596192948
+    },
+    "policy": "one fixed uniform transform across entire clip",
+    "sheet": "D:\\cat\\art\\mimi\\smooth\\sheets\\running.png",
+    "sha256": "160cb4705f85ad2da9964f4fce7f61a7eaf0fa9e8dd0b540962909943c534325"
+  },
+  {
+    "state": "running-right",
+    "frames": 16,
+    "scale": 1.14,
+    "root_x": 96,
+    "ground_y": 146,
+    "target_ground": 184,
+    "landmarks": {
+      "reference": "Approved side-profile skull and longest stride; one shared 1.14 scale."
+    },
+    "policy": "one fixed uniform transform across entire clip",
+    "sheet": "D:\\cat\\art\\mimi\\smooth\\sheets\\running-right.png",
+    "sha256": "e075a710f457e562f5ad69a17de6069a6bb595afa4da373f06066d59fcd13366"
+  },
+  {
+    "state": "transitions",
+    "frames": 12,
+    "scale": 0.7725393039369071,
+    "root_x": 82.5,
+    "ground_y": 181,
+    "target_ground": 184,
+    "landmarks": {
+      "points": [
+        [
+          73.0,
+          63.5
+        ],
+        [
+          92.0,
+          67.5
+        ]
+      ],
+      "distance": 19.4164878389476
+    },
+    "policy": "one fixed uniform transform across entire clip",
+    "sheet": "D:\\cat\\art\\mimi\\smooth\\sheets\\transitions.png",
+    "sha256": "3688644a3a5357dce0be4565671672ed851e6b4b359155d38b5f12d5fe462eb5"
+  },
+  {
+    "state": "jumping",
+    "frames": 10,
+    "scale": 0.8640331641919361,
+    "root_x": 83.0,
+    "ground_y": 195,
+    "target_ground": 184,
+    "landmarks": {
+      "points": [
+        [
+          75.0,
+          84.0
+        ],
+        [
+          91.0,
+          88.0
+        ]
+      ],
+      "distance": 16.492422502470642
+    },
+    "policy": "one fixed uniform transform across entire clip",
+    "sheet": "D:\\cat\\art\\mimi\\smooth\\sheets\\jumping.png",
+    "sha256": "6dd9bf3a99d488cbe2d74a7ad7e01910d16d3c3a10a9b15095c59f20fcc0e0b7"
+  },
+  {
+    "state": "waving",
+    "frames": 8,
+    "scale": 0.6475600525688833,
+    "root_x": 83.75,
+    "ground_y": 194,
+    "target_ground": 184,
+    "landmarks": {
+      "points": [
+        [
+          94.0,
+          51.0
+        ],
+        [
+          73.5,
+          43.0
+        ]
+      ],
+      "distance": 22.005681084665387
+    },
+    "policy": "one fixed uniform transform across entire clip",
+    "sheet": "D:\\cat\\art\\mimi\\smooth\\sheets\\waving.png",
+    "sha256": "8a7e48ef8ca29a46a8d4f9d3e690d441e40fa69a948b97cb171499a8245d4d36"
+  },
+  {
+    "state": "loaf",
+    "frames": 8,
+    "scale": 0.5731205399256526,
+    "root_x": 81.0,
+    "ground_y": 158,
+    "target_ground": 184,
+    "landmarks": {
+      "points": [
+        [
+          68.0,
+          88.5
+        ],
+        [
+          94.0,
+          91.5
+        ]
+      ],
+      "distance": 26.1725046566048
+    },
+    "policy": "one fixed uniform transform across entire clip",
+    "sheet": "D:\\cat\\art\\mimi\\smooth\\sheets\\loaf.png",
+    "sha256": "ea7c91914cde143123789a9de7808aeb904c2da11992ce84914cca8bc663f85f"
+  }
+]

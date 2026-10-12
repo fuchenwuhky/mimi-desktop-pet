@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "output_dir": "D:\\cat\\art\\mimi\\previews\\final",
+  "previews": [
+    {
+      "state": "idle",
+      "path": "D:\\cat\\art\\mimi\\previews\\final\\idle.gif",
+      "frames": 6
+    },
+    {
+      "state": "running-right",
+      "path": "D:\\cat\\art\\mimi\\previews\\final\\running-right.gif",
+      "frames": 8
+    },
+    {
+      "state": "running-left",
+      "path": "D:\\cat\\art\\mimi\\previews\\final\\running-left.gif",
+      "frames": 8
+    },
+    {
+      "state": "waving",
+      "path": "D:\\cat\\art\\mimi\\previews\\final\\waving.gif",
+      "frames": 4
+    },
+    {
+      "state": "jumping",
+      "path": "D:\\cat\\art\\mimi\\previews\\final\\jumping.gif",
+      "frames": 5
+    },
+    {
+      "state": "failed",
+      "path": "D:\\cat\\art\\mimi\\previews\\final\\failed.gif",
+      "frames": 8
+    },
+    {
+      "state": "waiting",
+      "path": "D:\\cat\\art\\mimi\\previews\\final\\waiting.gif",
+      "frames": 6
+    },
+    {
+      "state": "running",
+      "path": "D:\\cat\\art\\mimi\\previews\\final\\running.gif",
+      "frames": 6
+    },
+    {
+      "state": "review",
+      "path": "D:\\cat\\art\\mimi\\previews\\final\\review.gif",
+      "frames": 6
+    }
+  ]
+}

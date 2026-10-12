@@ -1,0 +1,97 @@
+{
+  "ok": true,
+  "frames_root": "D:\\cat\\art\\mimi\\qa\\rows\\jumping\\frames",
+  "states": [
+    "jumping"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\jumping\\frames\\jumping\\00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13875,
+          "bbox": [
+            18,
+            65,
+            174,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 464
+        },
+        {
+          "index": 1,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\jumping\\frames\\jumping\\01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13786,
+          "bbox": [
+            24,
+            32,
+            168,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 479
+        },
+        {
+          "index": 2,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\jumping\\frames\\jumping\\02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12368,
+          "bbox": [
+            27,
+            5,
+            165,
+            164
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 491
+        },
+        {
+          "index": 3,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\jumping\\frames\\jumping\\03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14270,
+          "bbox": [
+            18,
+            47,
+            174,
+            191
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 561
+        },
+        {
+          "index": 4,
+          "file": "D:\\cat\\art\\mimi\\qa\\rows\\jumping\\frames\\jumping\\04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12808,
+          "bbox": [
+            27,
+            54,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 438
+        }
+      ]
+    }
+  ]
+}

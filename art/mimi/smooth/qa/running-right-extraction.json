@@ -1,0 +1,258 @@
+[
+  {
+    "frame": 0,
+    "source_bounds": [
+      7,
+      317,
+      135,
+      395
+    ],
+    "bounds": [
+      31,
+      62,
+      159,
+      140
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 1,
+    "source_bounds": [
+      139,
+      319,
+      260,
+      397
+    ],
+    "bounds": [
+      35,
+      64,
+      156,
+      142
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 2,
+    "source_bounds": [
+      266,
+      318,
+      381,
+      396
+    ],
+    "bounds": [
+      38,
+      63,
+      153,
+      141
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 3,
+    "source_bounds": [
+      384,
+      318,
+      504,
+      398
+    ],
+    "bounds": [
+      35,
+      63,
+      155,
+      143
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 4,
+    "source_bounds": [
+      510,
+      317,
+      630,
+      392
+    ],
+    "bounds": [
+      35,
+      62,
+      155,
+      137
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 5,
+    "source_bounds": [
+      635,
+      322,
+      762,
+      387
+    ],
+    "bounds": [
+      32,
+      67,
+      159,
+      132
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 6,
+    "source_bounds": [
+      769,
+      318,
+      900,
+      394
+    ],
+    "bounds": [
+      30,
+      63,
+      161,
+      139
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 7,
+    "source_bounds": [
+      907,
+      319,
+      1062,
+      378
+    ],
+    "bounds": [
+      18,
+      64,
+      173,
+      123
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 8,
+    "source_bounds": [
+      1075,
+      319,
+      1219,
+      392
+    ],
+    "bounds": [
+      23,
+      64,
+      167,
+      137
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 9,
+    "source_bounds": [
+      1226,
+      319,
+      1356,
+      399
+    ],
+    "bounds": [
+      30,
+      64,
+      160,
+      144
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 10,
+    "source_bounds": [
+      1363,
+      320,
+      1491,
+      398
+    ],
+    "bounds": [
+      31,
+      65,
+      159,
+      143
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 11,
+    "source_bounds": [
+      1497,
+      318,
+      1624,
+      401
+    ],
+    "bounds": [
+      32,
+      63,
+      159,
+      146
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 12,
+    "source_bounds": [
+      1629,
+      318,
+      1764,
+      401
+    ],
+    "bounds": [
+      28,
+      63,
+      163,
+      146
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 13,
+    "source_bounds": [
+      1767,
+      317,
+      1894,
+      394
+    ],
+    "bounds": [
+      32,
+      62,
+      159,
+      139
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 14,
+    "source_bounds": [
+      1899,
+      318,
+      2029,
+      398
+    ],
+    "bounds": [
+      30,
+      63,
+      160,
+      143
+    ],
+    "eyes": null
+  },
+  {
+    "frame": 15,
+    "source_bounds": [
+      2033,
+      318,
+      2162,
+      398
+    ],
+    "bounds": [
+      31,
+      63,
+      160,
+      143
+    ],
+    "eyes": null
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "state": "review",
+  "selectedSource": "decoded/review.png",
+  "generation": "built-in image_gen",
+  "visualVerdict": "pass",
+  "sourceSize": [
+    2172,
+    724
+  ],
+  "sourceForegroundBounds": [
+    258,
+    157,
+    1965,
+    552
+  ],
+  "sourceEdgesClear": true,
+  "evidence": "Six complete seated poses. Head looks left, returns through a slight tilt, looks right, then closes eyes for a calm satisfied blink. Body scale and seated anchors remain stable. Broad source margins, complete tail. Review clearly distinct from kneading work.",
+  "finalAssemblyNote": "Parent will normalize anatomical scale and ground baseline across states; final chroma despill pending."
+}
